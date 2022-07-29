@@ -1,0 +1,55 @@
+<Module line="1" column="0">
+  <functions>
+    <Function line="1" column="0" name="main">
+      <returnTypeSpecifier class="VoidTypeSpecifier" line="1" column="9">
+        <type class="VoidType"/>
+      </returnTypeSpecifier>
+      <parameters/>
+      <body>
+        <CallStatement line="2" column="4">
+          <callExpression line="2" column="4" functionName="foo">
+            <actualParameters>
+              <IntValue line="2" column="8" value="1"/>
+              <IntValue line="2" column="11" value="2"/>
+              <IntValue line="2" column="14" value="3"/>
+            </actualParameters>
+          </callExpression>
+        </CallStatement>
+      </body>
+    </Function>
+    <Function line="5" column="0" name="foo">
+      <returnTypeSpecifier class="IntTypeSpecifier" line="5" column="9">
+        <type class="IntType"/>
+      </returnTypeSpecifier>
+      <parameters>
+        <FormalParameter line="5" column="17" name="a">
+          <typeSpecifier class="IntTypeSpecifier" line="5" column="17">
+            <type class="IntType"/>
+          </typeSpecifier>
+        </FormalParameter>
+        <FormalParameter line="5" column="24" name="b">
+          <typeSpecifier class="IntTypeSpecifier" line="5" column="24">
+            <type class="IntType"/>
+          </typeSpecifier>
+        </FormalParameter>
+        <FormalParameter line="5" column="31" name="c">
+          <typeSpecifier class="IntTypeSpecifier" line="5" column="31">
+            <type class="IntType"/>
+          </typeSpecifier>
+        </FormalParameter>
+      </parameters>
+      <body>
+        <ReturnStatement line="6" column="4">
+          <returnValue class="Addition" line="6" column="11">
+            <leftOperand class="Multiplication" line="6" column="11">
+              <leftOperand class="IdentifierReference" line="6" column="11" name="a"/>
+              <rightOperand class="IdentifierReference" line="6" column="15" name="b"/>
+            </leftOperand>
+            <rightOperand class="IdentifierReference" line="6" column="19" name="c"/>
+          </returnValue>
+        </ReturnStatement>
+      </body>
+    </Function>
+  </functions>
+  <records/>
+</Module>

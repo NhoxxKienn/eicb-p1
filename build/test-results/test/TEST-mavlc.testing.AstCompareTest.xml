@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mavlc.testing.AstCompareTest" tests="18" skipped="0" failures="18" errors="0" timestamp="2021-11-17T22:52:43" hostname="LAPTOP-PHCP0FO8" time="0.215">
+  <properties/>
+  <testcase name="test[p1_public/task_1/value_definition_1]" classname="mavlc.testing.AstCompareTest" time="0.139">
+    <failure message="java.lang.ExceptionInInitializerError" type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+	at com.thoughtworks.xstream.XStream.setupConverters(XStream.java:845)
+	at com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:574)
+	at com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:496)
+	at com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:465)
+	at com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:411)
+	at com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:378)
+	at mavlc.services.serialization.XmlSerialization.&lt;clinit&gt;(XmlSerialization.java:44)
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field protected java.lang.reflect.InvocationHandler java.lang.reflect.Proxy.h accessible: module java.base does not &quot;opens java.lang.reflect&quot; to unnamed module @393671df
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+	at com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:40)
+	at com.thoughtworks.xstream.converters.extended.DynamicProxyConverter.&lt;clinit&gt;(DynamicProxyConverter.java:42)
+	... 21 more
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_1/var_assign_1]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_1/var_declaration_1]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_2/arith_1]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_2/exp_1]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_2/transpose_2]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_3/select_3]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_3/select_5]" classname="mavlc.testing.AstCompareTest" time="0.005">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_4/if_stmt_2]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_4/if_stmt_3]" classname="mavlc.testing.AstCompareTest" time="0.005">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_5/call_1]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_5/return_1]" classname="mavlc.testing.AstCompareTest" time="0.005">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_6/foreach_1]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_6/for_loop_1]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_7/record_1]" classname="mavlc.testing.AstCompareTest" time="0.005">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_7/record_2]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_7/record_3]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="test[p1_public/task_7/record_4]" classname="mavlc.testing.AstCompareTest" time="0.004">
+    <failure message="java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class mavlc.services.serialization.XmlSerialization
+	at mavlc.testing.AstCompareTest.run(AstCompareTest.java:35)
+	at mavlc.testing.BaseCompareTest.test(BaseCompareTest.java:56)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <system-out><![CDATA[=== Running test case p1_public/task_1/value_definition_1 ===
+
+=== Running test case p1_public/task_1/var_assign_1 ===
+
+=== Running test case p1_public/task_1/var_declaration_1 ===
+
+=== Running test case p1_public/task_2/arith_1 ===
+
+=== Running test case p1_public/task_2/exp_1 ===
+
+=== Running test case p1_public/task_2/transpose_2 ===
+
+=== Running test case p1_public/task_3/select_3 ===
+
+=== Running test case p1_public/task_3/select_5 ===
+
+=== Running test case p1_public/task_4/if_stmt_2 ===
+
+=== Running test case p1_public/task_4/if_stmt_3 ===
+
+=== Running test case p1_public/task_5/call_1 ===
+
+=== Running test case p1_public/task_5/return_1 ===
+
+=== Running test case p1_public/task_6/foreach_1 ===
+
+=== Running test case p1_public/task_6/for_loop_1 ===
+
+=== Running test case p1_public/task_7/record_1 ===
+
+=== Running test case p1_public/task_7/record_2 ===
+
+=== Running test case p1_public/task_7/record_3 ===
+
+=== Running test case p1_public/task_7/record_4 ===
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

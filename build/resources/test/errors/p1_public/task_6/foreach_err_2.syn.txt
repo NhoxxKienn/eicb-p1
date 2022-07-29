@@ -1,0 +1,4 @@
+
+Syntax error in line 2, column 12:
+> Got token <int 'int'>, but expected one of the following:
+> val, var

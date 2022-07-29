@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mavlc.testing.ErrorCompareTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-17T22:52:43" hostname="LAPTOP-PHCP0FO8" time="0.041">
+  <properties/>
+  <testcase name="test[p1_public/task_2/syntax_err_7]" classname="mavlc.testing.ErrorCompareTest" time="0.033"/>
+  <testcase name="test[p1_public/task_6/foreach_err_2]" classname="mavlc.testing.ErrorCompareTest" time="0.008"/>
+  <system-out><![CDATA[=== Running test case p1_public/task_2/syntax_err_7 ===
+
+
+=== Test case p1_public/task_2/syntax_err_7 finished successfully ===
+
+=== Running test case p1_public/task_6/foreach_err_2 ===
+
+
+=== Test case p1_public/task_6/foreach_err_2 finished successfully ===
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

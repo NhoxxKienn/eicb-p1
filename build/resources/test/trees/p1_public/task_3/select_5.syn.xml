@@ -1,0 +1,27 @@
+<Module line="1" column="0">
+  <functions>
+    <Function line="1" column="0" name="main">
+      <returnTypeSpecifier class="VoidTypeSpecifier" line="1" column="9">
+        <type class="VoidType"/>
+      </returnTypeSpecifier>
+      <parameters/>
+      <body>
+        <ValueDefinition line="2" column="2" name="c">
+          <typeSpecifier class="IntTypeSpecifier" line="2" column="6">
+            <type class="IntType"/>
+          </typeSpecifier>
+          <value class="SelectExpression" line="2" column="14">
+            <condition class="Compare" line="2" column="14">
+              <leftOperand class="IdentifierReference" line="2" column="14" name="a"/>
+              <rightOperand class="IdentifierReference" line="2" column="16" name="d"/>
+              <comparator>LESS</comparator>
+            </condition>
+            <trueCase class="IdentifierReference" line="2" column="19" name="a"/>
+            <falseCase class="IdentifierReference" line="2" column="23" name="d"/>
+          </value>
+        </ValueDefinition>
+      </body>
+    </Function>
+  </functions>
+  <records/>
+</Module>

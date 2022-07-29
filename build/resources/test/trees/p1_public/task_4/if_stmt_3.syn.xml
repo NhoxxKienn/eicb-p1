@@ -1,0 +1,33 @@
+<Module line="1" column="0">
+  <functions>
+    <Function line="1" column="0" name="main">
+      <returnTypeSpecifier class="VoidTypeSpecifier" line="1" column="9">
+        <type class="VoidType"/>
+      </returnTypeSpecifier>
+      <parameters/>
+      <body>
+        <IfStatement line="2" column="4">
+          <condition class="And" line="2" column="7">
+            <leftOperand class="IdentifierReference" line="2" column="7" name="a"/>
+            <rightOperand class="IdentifierReference" line="2" column="11" name="b"/>
+          </condition>
+          <thenStatement class="CallStatement" line="3" column="8">
+            <callExpression line="3" column="8" functionName="printString">
+              <actualParameters>
+                <StringValue line="3" column="20" value="foo"/>
+              </actualParameters>
+            </callExpression>
+          </thenStatement>
+          <elseStatement class="CallStatement" line="5" column="8">
+            <callExpression line="5" column="8" functionName="printString">
+              <actualParameters>
+                <StringValue line="5" column="20" value="baz"/>
+              </actualParameters>
+            </callExpression>
+          </elseStatement>
+        </IfStatement>
+      </body>
+    </Function>
+  </functions>
+  <records/>
+</Module>
